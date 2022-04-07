@@ -200,10 +200,15 @@ nav a:hover {
   border: 2px solid #016116;
 }
 
-.footer-conteiner {
+
+
+.footer {
   background-color: #00000a;
 
   margin-top: 1em;
-  height: 4em;
+  height: 5em;
   
+}
+.footer p{
+  color: #ffffff;
 }
