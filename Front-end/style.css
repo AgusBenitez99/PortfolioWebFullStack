@@ -23,6 +23,87 @@ text-decoration: solid;
 .color4 {color: #8f8aea;}
 .color5 {color: #d6c6ff;}
 */
+
+.nav__responsive-ul {
+  display: none; /* le damos display: none para que no se muestre el otro navbar*/
+  
+}
+.nav {
+  background-color: #00000a; /* le damos un color de fondo a el nav*/
+  height: 3em;
+    width: 100%;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+  
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#nav-brand{
+  
+  
+    color: #ffffff;
+    
+    text-decoration: none;
+ 
+}
+#nav-brand img{
+  margin: 3px;
+  border-radius: 15px;
+  width: 40px;
+  height: 45px;
+  
+}
+.nav__ul {
+  
+ text-align: center;
+  
+   
+}
+
+.nav__li {
+  display: inline-block; /* le damos display:inline-block para que sean bloques y se pongan una al lado de otro*/
+  padding: 15px;
+  color: #fff; /* le damos un color a los iconos*/
+  
+  
+}
+.nav__li:hover > a {
+  color: #016116; /*cuando toque el link cambie de color*/
+}
+.nav__li:hover {
+  color: #016116; /* le damos con el hover a los link a que cambien de color
+  al pasar el mause */
+  transform: translate(0, 6px);
+}
+
+.nav__li a {
+  color: #fff; /*le damos color a las letras*/
+  text-decoration: none; /*le sacamos lo subrallado*/
+  
+}
+
+.nav__li i {
+  
+  text-align: right;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+/*
 .nav-conteiner {
   background-color: #00000a;
   
@@ -38,6 +119,10 @@ text-decoration: solid;
 }
 
 
+nav img{
+  width: 2em;
+  margin: 1em;
+}
 nav ul {
   
  
@@ -60,7 +145,7 @@ nav a:hover {
   text-decoration: none;
   background: #eee;
   border-radius: 4px;
-}
+} */
 
 .img-conteiner img {
   width: 100%;
