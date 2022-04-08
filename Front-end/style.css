@@ -32,29 +32,27 @@ text-decoration: solid;
   background-color: #00000a; /* le damos un color de fondo a el nav*/
   height: 3em;
     width: 100%;
-  display: flex;
-    align-items: center;
-    justify-content: center;
+  
     
    
   
 }
 .navbar-container {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 100%;
 }
 #nav-brand{
   
-  
+
     color: #ffffff;
     
     text-decoration: none;
  
 }
 #nav-brand img{
+  text-align: right;
   margin: 3px;
   border-radius: 15px;
   width: 40px;
@@ -63,7 +61,10 @@ text-decoration: solid;
 }
 .nav__ul {
   
- text-align: center;
+  justify-content: center;
+  align-self: center;
+ 
+  
   
    
 }
@@ -72,6 +73,7 @@ text-decoration: solid;
   display: inline-block; /* le damos display:inline-block para que sean bloques y se pongan una al lado de otro*/
   padding: 15px;
   color: #fff; /* le damos un color a los iconos*/
+  
   
   
 }
