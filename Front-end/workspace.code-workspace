@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Prueba de js"
+		},
+		{
+			"path": "..\\..\\Prueba de css y html"
+		},
+		{
+			"path": "E:\\HTLM\\Kinky-Cherry-main"
+		},
+		{
+			"path": "..\\..\\..\\Documents\\Fondos en moviemientos\\Matrix"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\Downloads\\demo"
+		},
+		{
+			"path": "..\\..\\proyecto0-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PortfolioWebFullStack"
+	}
+}

@@ -1,0 +1,272 @@
+
+ 
+  p {
+    color: rgb(0, 0, 0);
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: solid;
+  }
+  h2{
+    text-decoration: underline;
+    color: #00000a;
+    
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+  h3{
+    text-decoration: underline;
+    
+  }
+  body{
+    background-color:#282162;
+  }
+  
+  /* colores
+  .color1 {color: #00000a;}
+  .color2 {color: #23274a;}
+  .color3 {color: #535594;}
+  .color4 {color: #8f8aea;}
+  .color5 {color: #d6c6ff;}
+  */
+  
+  .nav__responsive-ul {
+    display: none; /* le damos display: none para que no se muestre el otro navbar*/
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    background-color: #000036; /* le damos un color de fondo a el nav*/
+    height: 3em;
+    width: 100%;
+    position: sticky;
+    top: 0;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+    width: 100%;
+    height: 100%;
+    
+  }
+  #nav-brand {
+    
+    color: #ffffff;
+    
+    text-decoration: none;
+  }
+  #nav-brand img {
+    margin: 8px;
+    border-radius: 15px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  
+  .nav__li {
+    display: inline-block; /* le damos display:inline-block para que sean bloques y se pongan una al lado de otro*/
+    padding: 15px;
+    color: #fff; /* le damos un color a los iconos*/
+    
+  }
+  .nav__li:hover > a {
+    color: #016116; /*cuando toque el link cambie de color*/
+  }
+  .nav__li:hover {
+    color: #016116; /* le damos con el hover a los link a que cambien de color
+    al pasar el mause */
+    transform: translate(0, 6px);
+  }
+  
+  .nav__li a {
+    color: #fff; /*le damos color a las letras*/
+    text-decoration: none; /*le sacamos lo subrallado*/
+    
+  }
+  
+  .nav__li i {
+    text-align: right;
+    margin-right: 5px;
+    
+  }
+  
+  .img-conteiner {
+    margin: 0px;
+  }
+  .img-conteiner img {
+    width: 100%;
+    height: 30em;
+    padding: 1em;
+  }
+  
+  .contenido-conteiner {
+    display: flex;
+  
+    height: auto;
+  
+    flex-flow: column wrap;
+    
+  }
+  .contenido-conteiner-section {
+    background-color: #ffffff;
+    margin: 1em 1em;
+  
+    border-radius: 20px;
+    border: 3px solid #016116;
+    padding: 1em;
+  }
+  
+  
+  .contenido-conteiner-habilidades {
+    display: flex;
+  
+    height: auto;
+    flex-direction: row;
+  }
+  .contenido-conteiner-habilidades-section {
+    background-color: #ffffff;
+    margin: 1em 2em;
+  
+    width: 100%;
+  
+    border-radius: 20px;
+    border: 3px solid #016116;
+    padding: 1em;
+    
+  }
+  
+  
+  
+  
+  /*inicio de estilos del footer*/
+  .footer {
+    background-color: #00000a;
+    width: 100%;
+    
+    margin-top: 1em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer p {
+    color: #ffffff;
+    
+  }
+  
+  
+  
+  
+  .conteiner-msj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #016116;
+    border-radius: 15px;
+    margin: 2em;
+    height: auto;
+    width: 50%;
+  }
+  .conteiner-msj p{
+    font-size: 1.5em;
+  }
+  
+  
+  .form-label {
+    color: #016116;
+    text-align: center;
+    
+  
+  }
+  .form-control{
+    
+    width: 70%;
+    margin: 3px;
+    border-radius: 5px;
+    
+  }
+
+  .button {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #016116;
+    border: 2px solid;
+    border-color: #000000;
+    position: relative;
+    margin: 5px;
+  }
+  .button:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px #ffffff;
+    transition: all 0.2s ease;
+  }
+
+  .footer  h2{
+    margin: 0px;
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
+    color: #016116;
+  }
+  
+  
+  .footer li {
+    display: inline-flex; /* le damos display:inline-block para que sean bloques y se pongan una al lado de otro*/
+    
+    
+    padding: 15px;
+    color: #fff; /* le damos un color a los iconos*/
+    margin-left: 2em;
+  }
+  .footer li:hover > a {
+    color: #016116; /*cuando toque el link cambie de color*/
+  }
+  .footer li:hover {
+    color: #016116; /* le damos con el hover a los link a que cambien de color
+    al pasar el mause */
+    transform: translate(0, 6px);
+  }
+  
+  .footer li a {
+    
+    
+    
+    color: #fff; /*le damos color a las letras*/
+    text-decoration: none; /*le sacamos lo subrallado*/
+    
+  }
+  
+  .footer li i {
+    font-size: 2em;
+    text-align: right;
+    margin-right: 5px;
+    
+  }
+  /* colores
+  .color1 {color: #00000a;}
+  .color2 {color: #23274a;}
+  .color3 {color: #535594;}
+  .color4 {color: #8f8aea;}
+  .color5 {color: #d6c6ff;}
+  */
+.asd{
+  
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+ 
+  margin: 1em;
+}
+
+  .footer p{
+    
+  
+    color: #016116;
+    
+  }
