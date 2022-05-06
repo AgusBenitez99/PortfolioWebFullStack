@@ -1,0 +1,55 @@
+.nav__responsive-ul {
+  display: none; /* le damos display: none para que no se muestre el otro navbar*/
+}
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: #181824; /* le damos un color de fondo a el nav*/
+  height: 5em;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+  width: 100%;
+  height: 100%;
+}
+
+#nav-brand {
+  color: #ffffff;
+  margin: 0px;
+}
+#nav-brand img {
+  font-size: 1.3em;
+  width: 5em;
+  height: 100%;
+}
+
+.nav__li {
+  display: inline-block; /* le damos display:inline-block para que sean bloques y se pongan una al lado de otro*/
+  padding: 15px;
+  color: #fff; /* le damos un color a los iconos*/
+}
+.nav__li:hover > a {
+  color: #016116; /*cuando toque el link cambie de color*/
+}
+.nav__li:hover {
+  color: #016116; /* le damos con el hover a los link a que cambien de color
+    al pasar el mause */
+  transform: translate(0, 6px);
+}
+
+.nav__li a {
+  color: #fff; /*le damos color a las letras*/
+  text-decoration: none; /*le sacamos lo subrallado*/
+}
+
+.nav__li i {
+  text-align: right;
+  margin-right: 5px;
+}
+
+

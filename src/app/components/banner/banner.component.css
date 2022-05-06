@@ -1,0 +1,9 @@
+.img-conteiner {
+  background-color: #1a1a29;
+}
+
+.img-conteiner img {
+  width: 100%;
+  height: 30em;
+  padding: 1em;
+}

@@ -5,3 +5,25 @@
     box-sizing: border-box;
     font-size: 17px;
   }
+
+  p {
+    color: #ffffff;
+  }
+  h1 {
+    color: #016116;
+    text-align: center;
+    text-decoration: solid;
+  }
+  h2{
+    text-decoration: underline;
+    color: #016116;
+    
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+  h3{
+    
+    color: #ffffff;
+  }
+  

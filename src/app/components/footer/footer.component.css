@@ -1,0 +1,130 @@
+/*inicio de estilos del footer*/
+.footer {
+    background-color: #1A1A29;
+    width: 100%;
+    
+    
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer p {
+    color: #ffffff;
+    
+  }
+  
+  
+  
+  
+  .conteiner-msj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    margin: 2em;
+    height: auto;
+    width: 50%;
+  }
+  .conteiner-msj p{
+    font-size: 1.5em;
+  }
+  
+  
+  .form-label {
+    color: #ffffff;
+    text-align: center;
+    
+  
+  }
+  .form-control{
+    background-color: #32323F;
+    width: 70%;
+    margin: 3px;
+    border-radius: 5px;
+    border: #32323F;
+  }
+
+  .button {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #016116;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: #32323F;
+    position: relative;
+    margin: 5px;
+  }
+  .button:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px #ffffff;
+    transition: all 0.2s ease;
+  }
+
+  .footer  h2{
+    margin: 0px;
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
+    color: #016116;
+  }
+  
+  
+  .footer li {
+    display: inline-flex; /* le damos display:inline-block para que sean bloques y se pongan una al lado de otro*/
+    
+    
+    padding: 15px;
+    color: #fff; /* le damos un color a los iconos*/
+    margin-left: 2em;
+  }
+  .footer li:hover > a {
+    color: #016116; /*cuando toque el link cambie de color*/
+  }
+  .footer li:hover {
+    color: #016116; /* le damos con el hover a los link a que cambien de color
+    al pasar el mause */
+    transform: translate(0, 6px);
+  }
+  
+  .footer li a {
+    
+    
+    
+    color: #fff; /*le damos color a las letras*/
+    text-decoration: none; /*le sacamos lo subrallado*/
+    
+  }
+  
+  .footer li i {
+    font-size: 2em;
+    text-align: right;
+    margin-right: 5px;
+    
+  }
+  /* colores
+  .color1 {color: #00000a;}
+  .color2 {color: #23274a;}
+  .color3 {color: #535594;}
+  .color4 {color: #8f8aea;}
+  .color5 {color: #d6c6ff;}
+  */
+.asd{
+  
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+ 
+  margin: 1em;
+}
+
+  .footer p{
+    
+  
+    color: #ffffff;
+    
+  }
