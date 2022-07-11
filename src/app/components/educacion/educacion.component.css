@@ -1,16 +1,11 @@
-.contenido-conteiner {
-    display: flex;
-  
-    height: auto;
-  
-    flex-flow: column wrap;
-    background-color: #1A1A29;
-  }
-  .contenido-conteiner-section {
-    
-    margin: 1em 1em;
-  
-    border-radius: 20px;
-    border: 3px solid #016116;
-    padding: 1em;
-  }
+
+.row {
+  margin: 1em 1em;
+
+  border-radius: 20px;
+  border: 3px solid #016116;
+  padding: 1em;
+}
+h1,h3{
+  display: inline;
+}

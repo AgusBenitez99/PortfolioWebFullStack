@@ -33,7 +33,7 @@
   padding: 15px;
   color: #fff; /* le damos un color a los iconos*/
 }
-.nav__li:hover > a {
+.nav__li:hover > button {
   color: #016116; /*cuando toque el link cambie de color*/
 }
 .nav__li:hover {
@@ -42,14 +42,31 @@
   transform: translate(0, 6px);
 }
 
-.nav__li a {
+.nav__li button {
   color: #fff; /*le damos color a las letras*/
   text-decoration: none; /*le sacamos lo subrallado*/
 }
 
-.nav__li i {
+.nav__li button {
   text-align: right;
   margin-right: 5px;
+}
+.button {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #016116;
+  border-radius: 15px;
+  border: 2px solid;
+  border-color: #32323F;
+  position: relative;
+  margin: 5px;
+}
+.button:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px #ffffff;
+  transition: all 0.2s ease;
 }
 
 
